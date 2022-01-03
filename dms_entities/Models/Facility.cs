@@ -11,5 +11,9 @@ namespace DepartmentManagementSystem.Entities.Models
         public Guid Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
+        public List<Department> UsedByDepartments { get; set; }
+        public DateTime TimeCreated { get; set; }
+        public bool Deleted { get; set; }
+        public DateTime TimeDeleted { get; set; }
     }
 }

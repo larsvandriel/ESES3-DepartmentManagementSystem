@@ -24,5 +24,9 @@ namespace DepartmentManagementSystem.Entities.Models
         public List<Tool> Tools { get; set; }
         public List<Utility> Utilities { get; set; }
         public List<Archive> Archives { get; set; }
+        public List<Rule> Rules { get; set; }
+        public DateTime TimeCreated { get; set; }
+        public bool Deleted { get; set; }
+        public DateTime TimeDeleted { get; set; }
     }
 }

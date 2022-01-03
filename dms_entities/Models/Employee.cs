@@ -14,6 +14,7 @@ namespace DepartmentManagementSystem.Entities.Models
         public string Email { get; set; }
         public string PhoneNumber { get; set; }
         public Address Address { get; set; }
+        public List<Department> WorksInDepartments { get; set; }
         public List<EmployeeFunction> Functions { get; set; }
     }
 }

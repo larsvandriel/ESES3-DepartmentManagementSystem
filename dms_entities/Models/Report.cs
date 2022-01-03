@@ -15,6 +15,8 @@ namespace DepartmentManagementSystem.Entities.Models
         public Employee WrittenBy { get; set; }
         public DateTime TimeWritten { get; set; }
         public string FilePath { get; set; }
-
+        public DateTime TimeEdited { get; set; }
+        public bool Deleted { get; set; }
+        public DateTime TimeDeleted { get; set; }
     }
 }

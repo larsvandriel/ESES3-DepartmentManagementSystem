@@ -13,6 +13,9 @@ namespace DepartmentManagementSystem.Entities.Models
         public List<Tool> RequiredTools { get; set; }
         public List<Equipment> RequiredEquipment { get; set; }
         public List<Step> Steps { get; set; }
-
+        public DateTime TimeCreated { get; set; }
+        public DateTime TimeEdited { get; set; }
+        public bool Deleted { get; set; }
+        public DateTime TimeDeleted { get; set; }
     }
 }
