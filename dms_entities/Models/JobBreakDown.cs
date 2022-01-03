@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DepartmentManagementSystem.Entities.Models
 {
-    public class JobBreakDown
+    public class JobBreakDown: IEntity
     {
         public Guid Id { get; set; }
         public Task Task { get; set; }

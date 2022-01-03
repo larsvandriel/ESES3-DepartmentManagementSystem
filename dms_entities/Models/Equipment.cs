@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace DepartmentManagementSystem.Entities.Models
 {
-    public class Equipment
+    public class Equipment: IEntity
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public List<Rule> Rules { get; set; }

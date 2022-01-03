@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DepartmentManagementSystem.Entities.Models
+namespace DepartmentManagementSystem.Entities
 {
-    public class Inventory: IEntity
+    public interface IEntity
     {
         public Guid Id { get; set; }
     }

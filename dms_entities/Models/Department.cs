@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DepartmentManagementSystem.Entities.Models
 {
-    public class Department
+    public class Department: IEntity
     {
         public Guid Id { get; set; }
         public string Name { get; set; }

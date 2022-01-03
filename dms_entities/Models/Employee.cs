@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DepartmentManagementSystem.Entities.Models
 {
-    public class Employee
+    public class Employee: IEntity
     {
         public Guid Id { get; set; }
         public int EmployeeNumber { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DepartmentManagementSystem.Entities.Models
 {
-    public class Archive
+    public class Archive: IEntity
     {
         public Guid Id { get; set; }
         public string Name { get; set; }

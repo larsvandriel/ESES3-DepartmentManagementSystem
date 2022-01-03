@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DepartmentManagementSystem.Entities.Models
 {
-    public class Utility
+    public class Utility: IEntity
     {
         public Guid Id { get; set; }
         public string Name { get; set; }

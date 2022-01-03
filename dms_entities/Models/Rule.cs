@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DepartmentManagementSystem.Entities.Models
 {
-    public class Rule
+    public class Rule: IEntity
     {
         public Guid Id { get; set; }
         public string RuleCode { get; set; }

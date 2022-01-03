@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DepartmentManagementSystem.Entities.Models
 {
-    public class Step
+    public class Step: IEntity
     {
         public Guid Id { get; set; }
         public Step MainStep { get; set; }
