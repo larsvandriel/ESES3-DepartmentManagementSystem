@@ -18,5 +18,10 @@ namespace DepartmentManagementSystem.Entities.Models
         public DateTime TimeCreated { get; set; }
         public bool Deleted { get; set; }
         public DateTime TimeDeleted { get; set; }
+
+        public void Map(Equipment equipment)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
