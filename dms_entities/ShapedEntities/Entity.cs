@@ -9,7 +9,7 @@ using System.Xml;
 using System.Xml.Schema;
 using System.Xml.Serialization;
 
-namespace LocationManagementSystem.Entities.ShapedEntities
+namespace DepartmentManagementSystem.Entities.ShapedEntities
 {
     public class Entity: DynamicObject, IXmlSerializable, IDictionary<string, object>
     {

@@ -1,5 +1,5 @@
-﻿using LocationManagementSystem.Entities.Models;
-using LocationManagementSystem.Entities.ShapedEntities;
+﻿using DepartmentManagementSystem.Entities.Models;
+using DepartmentManagementSystem.Entities.ShapedEntities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LocationManagementSystem.Entities.Helpers
+namespace DepartmentManagementSystem.Entities.Helpers
 {
     public class DataShaper<T> : IDataShaper<T>
     {

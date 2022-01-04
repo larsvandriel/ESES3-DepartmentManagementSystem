@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LocationManagementSystem.Entities.Helpers
+namespace DepartmentManagementSystem.Entities.Helpers
 {
     public class SortHelper<T> : ISortHelper<T>
     {

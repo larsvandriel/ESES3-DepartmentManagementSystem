@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LocationManagementSystem.Entities.ShapedEntities
+namespace DepartmentManagementSystem.Entities.ShapedEntities
 {
     public class LinkResourceBase
     {

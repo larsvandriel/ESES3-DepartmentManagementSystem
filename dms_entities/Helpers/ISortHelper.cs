@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LocationManagementSystem.Entities.Helpers
+namespace DepartmentManagementSystem.Entities.Helpers
 {
     public interface ISortHelper<T>
     {
