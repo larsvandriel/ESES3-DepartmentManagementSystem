@@ -9,7 +9,7 @@ namespace DepartmentManagementSystem.Contracts
     public interface IRepositoryWrapper
     {
         IDepartmentRepository Department { get; }
-        IEmployeeFunctionRepository Employee { get; }
+        IEmployeeFunctionRepository EmployeeFunction { get; }
         IFacilityRepository Facility { get; }
         IRuleRepository Rule { get; }
         ITaskRepository Task { get; }
