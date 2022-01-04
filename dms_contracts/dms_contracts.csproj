@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\dms_entities\dms_entities.csproj" />
+  </ItemGroup>
+
 </Project>
