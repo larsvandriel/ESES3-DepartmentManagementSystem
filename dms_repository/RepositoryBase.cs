@@ -1,9 +1,9 @@
-﻿using InventoryManagementSystem.Contracts;
-using InventoryManagementSystem.Entities;
+﻿using DepartmentManagementSystem.Contracts;
+using DepartmentManagementSystem.Entities;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
-namespace InventoryManagementSystem.Repository
+namespace DepartmentManagementSystem.Repository
 {
     public abstract class RepositoryBase<T> : IRepositoryBase<T> where T : class
     {

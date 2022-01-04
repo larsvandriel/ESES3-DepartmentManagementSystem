@@ -151,7 +151,7 @@ namespace DepartmentManagementSystem.Repository
             }
         }
 
-        public RepositoryWrapper(RepositoryContext repositoryContext, ISortHelper<Department> departmentSortHelper, IDataShaper<Department> departmentDataShaper, ISortHelper<EmployeeFunction> employeeFunctionSortHelper, IDataShaper<EmployeeFunction> employeeFunctionDataShaper, ISortHelper<Equipment> equipmentSortHelper, IDataShaper<Equipment> equipmentDataShaper, ISortHelper<Facility> facilitySortHelper, IDataShaper<Product> productDataShaper)
+        public RepositoryWrapper(RepositoryContext repositoryContext, ISortHelper<Department> departmentSortHelper, IDataShaper<Department> departmentDataShaper, ISortHelper<EmployeeFunction> employeeFunctionSortHelper, IDataShaper<EmployeeFunction> employeeFunctionDataShaper, ISortHelper<Equipment> equipmentSortHelper, IDataShaper<Equipment> equipmentDataShaper, ISortHelper<Facility> facilitySortHelper, IDataShaper<Facility> facilityDataShaper, ISortHelper<Rule> ruleSortHelper, IDataShaper<Rule> ruleDataShaper, ISortHelper<Task> taskSortHelper, IDataShaper<Task> taskDataShaper, ISortHelper<Tool> toolSortHelper, IDataShaper<Tool> toolDataShaper, ISortHelper<Utility> utilitySortHelper, IDataShaper<Utility> utilityDataShaper)
         {
             _repoContext = repositoryContext;
             _departmentSortHelper = departmentSortHelper;
@@ -161,7 +161,15 @@ namespace DepartmentManagementSystem.Repository
             _equipmentSortHelper = equipmentSortHelper;
             _equipmentDataShaper = equipmentDataShaper;
             _facilitySortHelper = facilitySortHelper;
-            _facitlityDataShaper = productDataShaper;
+            _facitlityDataShaper = facilityDataShaper;
+            _ruleSortHelper = ruleSortHelper;
+            _ruleDataShaper = ruleDataShaper;
+            _taskSortHelper = taskSortHelper;
+            _taskDataShaper = taskDataShaper;
+            _toolSortHelper = toolSortHelper;
+            _toolDataShaper = toolDataShaper;
+            _utilitySortHelper = utilitySortHelper;
+            _utilityDataShaper = utilityDataShaper;
         }
 
         public void Save()
