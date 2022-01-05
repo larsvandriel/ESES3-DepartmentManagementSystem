@@ -17,10 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\LoggingService\LoggingService.csproj" />
     <ProjectReference Include="..\dms_contracts\dms_contracts.csproj" />
     <ProjectReference Include="..\dms_entities\dms_entities.csproj" />
