@@ -10,6 +10,7 @@ namespace DepartmentManagementSystem.Contracts
     {
         IDepartmentRepository Department { get; }
         IEmployeeFunctionRepository EmployeeFunction { get; }
+        IEquipmentRepository Equipment { get; }
         IFacilityRepository Facility { get; }
         IRuleRepository Rule { get; }
         ITaskRepository Task { get; }
